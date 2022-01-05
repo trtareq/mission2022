@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px ;
+}
+span{
+    color: orange;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 2%;
+    }
+ .half-width img{
+        width: 80%;
+    }
+    section p{
+        text-align:justify;
+    }
+
+.tri-width{
+    width: 30%;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+.tri-width img{
+    width: 50%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato,rgb(230, 233, 41));
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: seashell;
+    font-weight: 900;
+    margin: 0;
+}
+#border{
+    border-left: 5px solid;
+    border-image:linear-gradient(orange, red) ;
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+#middle{
+    text-align: center;
+}
+#background1{
+    background-image: linear-gradient(rgb(164, 187, 206),rgb(226, 222, 168));
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 20px;
+}
+#background2{
+    background-image: linear-gradient(rgb(211, 206, 181),rgb(233, 139, 139));
+    border-radius: 40px;
+    margin-right: 10px;
+    padding: 20px;
+}
+#background3{
+    background-image: linear-gradient(rgb(134, 211, 157),rgb(168, 226, 187));
+    border-radius: 40px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.back-img{
+    background-image: url(images/shapes/shape-1.png); 
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 300px 300px;
+}
+#left-pad{
+    padding-left: 100px;
+}
