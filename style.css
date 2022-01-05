@@ -40,7 +40,7 @@ span{
     background-image: linear-gradient(tomato,rgb(230, 233, 41));
     padding: 10px 10px;
     border-radius: 4px;
-    color: seashell;
+    color: rgb(0, 0, 0);
     font-weight: 900;
     margin: 0;
 }
@@ -79,6 +79,20 @@ span{
     background-position:left;
     background-size: 300px 300px;
 }
+
 #left-pad{
-    padding-left: 100px;
+    padding-left: 20%;
+}
+.backimg{
+    background-image: url(images/shapes/shape-1.png); 
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 300px 300px;
+}
+.last{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+     color: white;
+     text-align: center;
+
 }
