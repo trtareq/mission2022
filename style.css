@@ -96,3 +96,13 @@ span{
      text-align: center;
 
 }
+.me{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(158, 118, 118);
+    color: rgb(19, 9, 9);
+    text-align: center;
+
+}
+#top img{
+    width: 80%;
+}
